@@ -5,7 +5,7 @@
 ## Name: <ins> Eva Sangwan </ins>
 
 # Custom BPlusTree Implementation 
-This is a self-written implementation of a B+ Tree data structure from scratch, designed to deepen my understanding of how B+ Trees work internally. The implementation includes all the core operations: insertion, deletion, searching, and traversal, with comprehensive testing to ensure correctness. 
+This is a self-written implementation of a B+ Tree data structure from scratch, to deepen my understanding of how B+ Trees work internally. The implementation includes all the core functions: insertion, deletion, searching, and traversal, with comprehensive testing to ensure correctness. 
 
 ## Features:
 
@@ -54,6 +54,6 @@ Large Scale Testing: runs 225 iterations (15×15) for thorough validation
    `bplustree/bplustree.h` – BPlusTree class includes Iterator class
   
    `btree_array_funcs/btree_array_funcs.h` – utility functions to attach, detach, shift, move, and merge arrays, find max values, indices of max values, and swap values
-- `functions.h`- Self written utility functions for array operations, shuffling, and printing
+- `functions.h`- self written utility functions for array operations, shuffling, and printing
 - `_tests/_test_files/testB.cpp` - debugging and testing purposes
 
