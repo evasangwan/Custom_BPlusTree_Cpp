@@ -1,4 +1,4 @@
-![Alt text](<graphdemo.gif>)
+![Alt text](<bplustree_removetest.gif>)
 
 # Work Report
 
@@ -25,7 +25,7 @@ Range Queries: Iterator-based range operations
 
 Leaf Node Linking: Connected leaf nodes for efficient range scans
 
-##Implementation Details
+## Implementation Details
 Key Components: 
 
 BPlusTree Class: Main tree structure with configurable node sizes
@@ -39,19 +39,19 @@ To test the BPlusTree Remove function, I wrote a test that ensures all edge case
 It can be found in - `_tests/_test_files/testB.cpp` and includes:
 
 Randomized Testing: Generates unique random datasets for each test iteration
+
 Multiple Removal Orders: Tests every possible removal sequence by shuffling indices
+
 Complete Coverage: Ensures all elements can be removed in any order
+
 Empty Tree Verification: Confirms the tree is properly emptied after all removals
+
 Large Scale Testing: Runs 225 iterations (15×15) for thorough validation
 
 ## File Structure 
 - `includes/` – header files for bplustree class and bplustree array functions
    `bplustree/bplustree.h` – BPlusTree class includes Iterator class  
    `btree_array_funcs/btree_array_funcs.h` – utility functions to attach, detach, shift, move, and merge arrays, find max values, indices of max values, and swap values
-- 'functions.h'- Self written utility functions for array operations, shuffling, and printing
-- `_tests/_test_files/testB.cpp' - debugging and testing purposes
+- `functions.h`- Self written utility functions for array operations, shuffling, and printing
+- `_tests/_test_files/testB.cpp` - debugging and testing purposes
 
-
-
-
->>>>>>> 06a2ea8 (Initial commit)
