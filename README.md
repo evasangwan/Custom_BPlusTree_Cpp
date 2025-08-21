@@ -35,8 +35,8 @@ Iterator Class: For traversing elements in sorted order
 Node Structure: Internal and leaf nodes with proper linkage
 
 ## Comprehensive Remove Testing
-To test the BPlusTree Remove function, I wrote a test that ensures all edge cases are covered with.
-It can be found in - `_tests/_test_files/testB.cpp` and includes:
+To test the BPlusTree Remove function, I wrote a test that ensures all edge cases are covered.
+This can be found in - `_tests/_test_files/testB.cpp` and includes:
 
 Randomized Testing: Generates unique random datasets for each test iteration
 
