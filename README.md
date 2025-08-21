@@ -9,44 +9,44 @@ This is a self-written implementation of a B+ Tree data structure from scratch, 
 
 ## Features:
 
-Insertion: Efficent insertion with automatic node splitting
+Insertion: efficent insertion with node splitting
 
-Deletion: Complete removal implementation with merging and redistribution
+Deletion: complete removal implementation with merging and redistribution
 
-Search: Fast lookup operations 
+Search: fast lookup operation
 
-Iteration: Forward iterator for in-order traversal
+Iteration: forward iterator for in-order traversal
 
-Copy Constructor & Assignment Operator: For deep copying 
+Copy Constructor & Assignment Operator: for deep copying 
 
-Tree Traversals: In-order, pre-order, and post-order traversals
+Tree Traversals: in-order, pre-order, and post-order traversals
 
-Range Queries: Iterator-based range operations
+Range Queries: iterator-based range operations
 
-Leaf Node Linking: Connected leaf nodes for efficient range scans
+Leaf Node Linking: connected leaf nodes for efficient range scans
 
 ## Implementation Details
 Key Components: 
 
-BPlusTree Class: Main tree structure with configurable node sizes
+BPlusTree Class: main tree structure with configurable node sizes
 
-Iterator Class: For traversing elements in sorted order
+Iterator Class: for traversing elements in sorted order
 
-Node Structure: Internal and leaf nodes with proper linkage
+Node Structure: root, internal and leaf nodes with proper linkage
 
 ## Comprehensive Remove Testing
 To test the BPlusTree Remove function, I wrote a test that ensures all edge cases are covered.
 This can be found in `_tests/_test_files/testB.cpp` and includes:
 
-Randomized Testing: Generates unique random datasets for each test iteration
+Randomized Testing: generates unique random datasets for each test iteration
 
-Multiple Removal Orders: Tests every possible removal sequence by shuffling indices
+Multiple Removal Orders: tests every possible removal sequence by shuffling indices
 
-Complete Coverage: Ensures all elements can be removed in any order
+Complete Coverage: ensures all elements can be removed in any order
 
-Empty Tree Verification: Confirms the tree is properly emptied after all removals
+Empty Tree Verification: confirms the tree is properly emptied after all removals
 
-Large Scale Testing: Runs 225 iterations (15×15) for thorough validation
+Large Scale Testing: runs 225 iterations (15×15) for thorough validation
 
 ## File Structure 
 - `includes/` – header files for bplustree class and bplustree array functions
